@@ -25,6 +25,7 @@
   },
   "devDependencies": {
     "nwb": "0.25.x",
+    "nwb-sass": "^0.10.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
@@ -37,12 +38,12 @@
   },
   "keywords": [
     "react-component",
-	"react",
-	"drag and drop",
-	"sortable",
-	"reorder"
+    "react",
+    "drag and drop",
+    "sortable",
+    "reorder"
   ],
   "bugs": {
     "url": "https://github.com/joshcaplin/wasp/issues"
-  },
+  }
 }
