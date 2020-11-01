@@ -1,3 +1,19 @@
+.droppable-container {
+  border: 1px solid #aaaa;
+  padding: 8px 4px;
+
+  .draggable-item {
+    padding: 4px 12px;
+
+    .item-title {
+      margin: 0;
+    }
+    .item-description {
+      margin: 0 0 0 20px;
+    }
+  }
+}
+
 .text-danger {
   color: #dd0000;
 }
