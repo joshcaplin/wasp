@@ -1,6 +1,6 @@
 {
   "name": "@joshcaplin/wasp",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Wicked Awesome Sortable Panel - React component for drag & drop functionality",
   "main": "lib/index.js",
   "module": "es/index.js",
