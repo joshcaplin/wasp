@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import t from 'prop-types';
 import { DragDropContext, Droppable } from 'react-beautiful-dnd';
 
-import './Wasp.scss';
+import './Wasp.css';
 import ErrorBoundary from './ErrorBoundary';
 import ListItems from './ListItems';
 

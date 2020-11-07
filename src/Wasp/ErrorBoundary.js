@@ -1,5 +1,5 @@
 import React from 'react';
-import './Wasp.scss';
+import './Wasp.css';
 
 class ErrorBoundary extends React.Component {
     constructor(props) {
@@ -12,7 +12,7 @@ class ErrorBoundary extends React.Component {
         return { hasError: true };
     }
     render() {
-        if(this.state.hasError) {
+        if (this.state.hasError) {
             return (
                 <div>
                   <p className="text-danger">An unexpected error occured, cannot display sortable list.</p>
