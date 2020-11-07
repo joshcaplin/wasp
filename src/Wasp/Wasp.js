@@ -56,7 +56,7 @@ const Wasp = (props) => {
   };
 
   return (
-    <React.Fragment>
+    <div className="wasp-shell">
       <ErrorBoundary>
         <DragDropContext onDragEnd={onDragEnd}>
           <Droppable droppableId="droppable">
@@ -78,7 +78,7 @@ const Wasp = (props) => {
           </Droppable>
         </DragDropContext>
       </ErrorBoundary>
-    </React.Fragment>
+    </div>
   );
 };
 
