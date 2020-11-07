@@ -1,0 +1,29 @@
+.droppable-container {
+  border: 1px solid #aaaa;
+  padding: 8px 4px;
+}
+
+.droppable-container .draggable-item {
+  padding: 4px 12px;
+}
+
+.droppable-container .draggable-item .item-title {
+  margin: 0;
+}
+
+.droppable-container .draggable-item .item-description {
+  margin: 0 0 0 20px;
+}
+
+.text-danger {
+  color: #dd0000;
+}
+
+.text-default {
+  color: #000000;
+}
+
+.text-highlight {
+  color: #002fd5;
+}
+/*# sourceMappingURL=Wasp.css.map */
