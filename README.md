@@ -2,7 +2,6 @@
 Wasp is a simple wrapper around the [react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd) library to provide drag & drop capabilities for a vertical list.  This component allows you to reuse the same functionality across multiple apps without needing to duplicate logic, styling, etc.  Follow the directions below and you'll have drag & drop functionality set up in less than 5 minutes!
 
 <img src="wasp-demo.gif" width="500px">
-&nbsp;
 
 
 ## :hammer: Installation
@@ -22,7 +21,7 @@ npm install --save @joshcaplin/wasp
 - **Why the heck is the library named Wasp?**
   - It stands for **W**icked **A**wesome **S**ortable **P**anel.
 &nbsp;
-
+&nbsp;
 
 ## 🧱 Built with
 - [react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd)
