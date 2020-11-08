@@ -20,8 +20,7 @@ npm install --save @joshcaplin/wasp
   - Mostly as a proof-of-concept to understand the process of publishing an npm package and to learn how to build reusable React component libraries.
 - **Why the heck is the library named Wasp?**
   - It stands for **W**icked **A**wesome **S**ortable **P**anel.
-&nbsp;
-&nbsp;
+<img src="spacer.png" height="250px">
 
 ## 🧱 Built with
 - [react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd)
