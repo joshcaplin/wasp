@@ -20,20 +20,28 @@ npm install --save @joshcaplin/wasp
   - Mostly as a proof-of-concept to understand the process of publishing an npm package and to learn how to build reusable React component libraries.
 - **Why the heck is the library named Wasp?**
   - It stands for **W**icked **A**wesome **S**ortable **P**anel.
-<img src="spacer.png" >
+
+
+
 
 ## 🧱 Built with
 - [react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd)
   - built by Atlassian, **rbd** provides many options & flexibility for drag & drop functionality.
 - [nwb](https://github.com/insin/nwb)
   - nwb is a toolkit to build reusable React *component* libraries rather than  full-blown React apps.
-<img src="spacer.png" >
+
+
+
 
 ## :heart: Show your support
 - If this library was helpful to you, please ⭐️ this repo!
-<img src="spacer.png" >
+
+
+
 
 ## :writing_hand: Author
 Josh Caplin - [@joshcaplin](https://twitter.com/joshcaplin)
 - [www.joshcaplin.dev](https://www.joshcaplin.dev)&nbsp;&nbsp;&nbsp;![Website](https://img.shields.io/website?down_message=offline&url=https%3A%2F%2Fjoshcaplin.dev)
-<img src="spacer.png" height="200" >
+
+
+
