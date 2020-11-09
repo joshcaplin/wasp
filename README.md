@@ -1,5 +1,5 @@
 # Wasp
-![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/joshcaplin/wasp/main) ![npm bundle size (scoped)](https://img.shields.io/bundlephobia/minzip/@joshcaplin/wasp) ![GitHub top language](https://img.shields.io/github/languages/top/joshcaplin/wasp) <img src="https://img.shields.io/static/v1?label=issues&message=0&color=brightgreen" > <img src="https://img.shields.io/static/v1?label=maintained?&message=yep&color=brightgreen" > <img src="https://img.shields.io/static/v1?label=code%20quality&message=legit&color=brightgreen" > <img src="https://img.shields.io/static/v1?label=technical%20debt&message=heck%20no%21&color=blue" > <img src="https://img.shields.io/static/v1?label=donations&message=send%20beer&color=brightgreen" > <img src="https://img.shields.io/static/v1?label=works%20on&message=my%20machine&color=brightgreen" >
+![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/joshcaplin/wasp/main) ![NPM](https://img.shields.io/npm/l/@joshcaplin/wasp) ![npm bundle size (scoped)](https://img.shields.io/bundlephobia/minzip/@joshcaplin/wasp) ![GitHub top language](https://img.shields.io/github/languages/top/joshcaplin/wasp) <img src="https://img.shields.io/static/v1?label=issues&message=0&color=brightgreen" > <img src="https://img.shields.io/static/v1?label=maintained?&message=yep&color=brightgreen" > <img src="https://img.shields.io/static/v1?label=code%20quality&message=legit&color=brightgreen" > <img src="https://img.shields.io/static/v1?label=technical%20debt&message=heck%20no%21&color=blue" > <img src="https://img.shields.io/static/v1?label=donations&message=send%20beer&color=brightgreen" > <img src="https://img.shields.io/static/v1?label=works%20on&message=my%20machine&color=brightgreen" >
 
 Wasp is a simple wrapper around the [react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd) library to provide drag & drop capabilities for a vertical list.  This component allows you to reuse the same functionality across multiple apps without needing to duplicate logic, styling, etc.  Follow the directions below and you'll have drag & drop functionality set up in less than 5 minutes!
 
@@ -64,5 +64,8 @@ const teams = [
 Josh Caplin - [@joshcaplin](https://twitter.com/joshcaplin)
 - [www.joshcaplin.dev](https://www.joshcaplin.dev)&nbsp;&nbsp;&nbsp;![Website](https://img.shields.io/website?down_message=offline&url=https%3A%2F%2Fjoshcaplin.dev)
 
-<br /><br/><br /><br/>
+<br /><br/>
+
+[![forthebadge](https://forthebadge.com/images/badges/certified-snoop-lion.svg)](https://forthebadge.com)
+<br /><br/>
 
