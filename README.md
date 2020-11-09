@@ -1,20 +1,5 @@
 # Wasp
-![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/joshcaplin/joshcaplin/main) <img src="https://img.shields.io/static/v1?label=code%20quality&message=yes!&color=brightgreen" > <img src="https://img.shields.io/static/v1?label=technical%20debt&message=heck%20no%21&color=blue" > <img src="https://img.shields.io/static/v1?label=works%20on&message=my%20machine&color=brightgreen" >
-
-[![Travis][build-badge]][build]
-[![npm package][npm-badge]][npm]
-[![Coveralls][coveralls-badge]][coveralls]
-
-Describe wasp here.
-
-[build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
-[build]: https://travis-ci.org/user/repo
-
-[npm-badge]: https://img.shields.io/npm/v/npm-package.png?style=flat-square
-[npm]: https://www.npmjs.org/package/npm-package
-
-[coveralls-badge]: https://img.shields.io/coveralls/user/repo/master.png?style=flat-square
-[coveralls]: https://coveralls.io/github/user/repo 
+![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/joshcaplin/wasp/main) ![npm bundle size (scoped)](https://img.shields.io/bundlephobia/minzip/@joshcaplin/wasp) ![GitHub top language](https://img.shields.io/github/languages/top/joshcaplin/wasp) <img src="https://img.shields.io/static/v1?label=issues&message=0&color=brightgreen" > <img src="https://img.shields.io/static/v1?label=maintained?&message=yep&color=brightgreen" > <img src="https://img.shields.io/static/v1?label=code%20quality&message=legit&color=brightgreen" > <img src="https://img.shields.io/static/v1?label=technical%20debt&message=heck%20no%21&color=blue" > <img src="https://img.shields.io/static/v1?label=donations&message=send%20beer&color=brightgreen" > <img src="https://img.shields.io/static/v1?label=works%20on&message=my%20machine&color=brightgreen" >
 
 Wasp is a simple wrapper around the [react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd) library to provide drag & drop capabilities for a vertical list.  This component allows you to reuse the same functionality across multiple apps without needing to duplicate logic, styling, etc.  Follow the directions below and you'll have drag & drop functionality set up in less than 5 minutes!
 
@@ -62,7 +47,7 @@ const teams = [
   - It stands for **W**icked **A**wesome **S**ortable **P**anel.
 - **I don't like the default styling**
   - Please rephrase in the form of a question. :stuck_out_tongue_winking_eye:
-
+<br /><br/>
 
 
 ## 🧱 Built with
