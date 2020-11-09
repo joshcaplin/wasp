@@ -1,5 +1,20 @@
 # Wasp
-<img src="https://img.shields.io/static/v1?label=code%20quality&message=yes!&color=brightgreen" > <img src="https://img.shields.io/static/v1?label=technical%20debt&message=heck%20no%21&color=blue" > <img src="https://img.shields.io/static/v1?label=works%20on&message=my%20machine&color=green" >
+![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/joshcaplin/joshcaplin/main) <img src="https://img.shields.io/static/v1?label=code%20quality&message=yes!&color=brightgreen" > <img src="https://img.shields.io/static/v1?label=technical%20debt&message=heck%20no%21&color=blue" > <img src="https://img.shields.io/static/v1?label=works%20on&message=my%20machine&color=brightgreen" >
+
+[![Travis][build-badge]][build]
+[![npm package][npm-badge]][npm]
+[![Coveralls][coveralls-badge]][coveralls]
+
+Describe wasp here.
+
+[build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
+[build]: https://travis-ci.org/user/repo
+
+[npm-badge]: https://img.shields.io/npm/v/npm-package.png?style=flat-square
+[npm]: https://www.npmjs.org/package/npm-package
+
+[coveralls-badge]: https://img.shields.io/coveralls/user/repo/master.png?style=flat-square
+[coveralls]: https://coveralls.io/github/user/repo 
 
 Wasp is a simple wrapper around the [react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd) library to provide drag & drop capabilities for a vertical list.  This component allows you to reuse the same functionality across multiple apps without needing to duplicate logic, styling, etc.  Follow the directions below and you'll have drag & drop functionality set up in less than 5 minutes!
 
@@ -20,19 +35,18 @@ npm install --save @joshcaplin/wasp
   -  **itemsToList** - input array of strings or objects to display in the list.  The objects should have properties of *title* and *description*.
 - There is currently one optional parameter, with more coming soon:
   -  **onReorder()** - called every time you reorder the list - passes the new array back to the parent component.  If you don't care about the reordered array, you don't need to define a handler for this callback.
-- Check out a live demo on [codesandbox.io](https://codesandbox.io/s/wasp-demo-9q4y1)
+- **Live demo >>>** [codesandbox.io](https://codesandbox.io/s/wasp-demo-9q4y1)
 
 ```javascript
 import { Wasp } from '@joshcaplin/wasp';
-```
-```javascript
+  ...
+  ...
 //items can be hardcoded, pulled from a config file, returned from an API call, etc
 const teams = [
   'Purdue Boilermakers', 
   'Arizona State Sun Devils', 
   'Scottsdale Fighting Artichokes',
 ];
-
 <Wasp
   itemsToList={teams}
   //onReorder={handleReorderedItems}  //<-- enable if you need the updated array
